@@ -10,6 +10,7 @@
     left: 0;
     right: 0;
     z-index: 999;
+
 }
 
 #header.on {
@@ -26,10 +27,12 @@
 
 #header .gnb>ul>li {
     position: relative;
+    color: #fff;
 }
 
 #header .gnb>ul>li>a {
     display: block;
+    color: #fff;
     line-height: 100px;
 }
 
@@ -117,8 +120,9 @@
 
 .main_slide .slick-dots li button {
 
-    position: absolute;
-    bottom: 200px;
+    position: relative;
+    bottom: 300px;
+    left: 20px;
     z-index: 999;
 
     font-size: 0;
@@ -126,10 +130,10 @@
     background: white;
     border: none;
     outline: none;
-    padding: 5px;
+    padding: 3px;
     width: 100px;
     height: 1px;
-    border-radius: 10%;
+
 }
 
 .main_slide .slick-dots li.slick-active button {

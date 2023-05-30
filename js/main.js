@@ -14,7 +14,12 @@ $(function () {
         autoplay: true,
     })
 
-
+    $('.arrows .left').on('click', function () {
+        $('.product_slide').slick('slickPrev');
+    });
+    $('.arrows .right').on('click', function () {
+        $('.product_slide').slick('slickNext');
+    });
 
     $('.product_slide').slick({
         arrows: false,
