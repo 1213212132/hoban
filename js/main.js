@@ -5,13 +5,15 @@ $(function () {
 
     $('.main_slide').slick({
         arrows: false,
+        fade: true,
         // vertical: true, 위로 넘어가게 만들기
         //fade: true, 화면 사라지면서 넘어가는 거
         dots: true,
         autoplay: true,
+        autoplaySpeed: 7000,
         pauseOnHover: false,
         pauseOnFocus: false,
-        autoplay: true,
+
     })
 
     $('.arrows .left').on('click', function () {
@@ -23,7 +25,7 @@ $(function () {
 
     $('.product_slide').slick({
         arrows: false,
-        dots: true,
+        dots: false,
         slidesToShow: 4,
         slidesToScroll: 3,
         responsive: [
