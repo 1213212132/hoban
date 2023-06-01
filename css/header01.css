@@ -27,7 +27,7 @@
 
 #header .gnb>ul>li {
     position: relative;
-    color: #fff;
+    color: #333;
 }
 
 #header .gnb>ul>li>a {
@@ -148,33 +148,4 @@
 
 .main_slide .slick-dots li.slick-active button {
     background: tomato;
-}
-
-
-
-.main_visual .slick-arrow {
-
-    top: 50%;
-    left: 50%;
-    z-index: 999;
-
-    background: transparent;
-    border: none;
-    outline: none;
-
-    font-size: 0;
-    width: 100px;
-    height: 100px;
-    border-left: 1px solid rgba(255, 255, 255, 0.5);
-    border-top: 1px solid rgba(255, 255, 255, 0.5);
-}
-
-.main_visual .slick-prev {
-    margin: 0 0 0 -700px;
-    transform: translate(-50%, -50%) rotate(-45deg);
-}
-
-.main_visual .slick-next {
-    margin: 0 0 0 700px;
-    transform: translate(-50%, -50%) rotate(135deg);
 }
