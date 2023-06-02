@@ -149,3 +149,23 @@
 .main_slide .slick-dots li.slick-active button {
     background: tomato;
 }
+
+.main_visual .scr {
+    position: absolute;
+
+    left: 15.8%;
+    cursor: pointer;
+    bottom: 95px;
+    display: block;
+    width: 100px;
+    height: 87px;
+    font-size: 0;
+
+    transform: translate(-100%, 0);
+    margin: 0 0 0 700px;
+    padding: 0 15px;
+    border-radius: 50%;
+
+
+    color: #fff;
+}

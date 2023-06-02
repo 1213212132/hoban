@@ -19,9 +19,7 @@ body {
 
 .wrap {}
 
-#header {
-    border-bottom: 1px solid #ddd;
-}
+#header {}
 
 #header .inner {
     display: flex;
@@ -36,10 +34,12 @@ body {
 
 #header .gnb {
     margin: 0 0 0 auto;
+    word-break: keep-all;
 }
 
 #header .gnb>ul {
     display: flex;
+    word-break: keep-all;
     gap: 40px;
 }
 
@@ -298,7 +298,7 @@ video {
 
 .arrows {
     position: absolute;
-    top: 128%;
+    top: 120%;
     left: 50%;
     transform: translate(-50%, -50%);
     max-width: 1300px;
@@ -382,21 +382,26 @@ video {
 
 .story .con {
 
-    margin-top: 100px;
+    padding-top: 100px;
 }
 
 .story .con h2 {
 
-    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
+
+.story .con p {
+
+    padding-bottom: 20px;
+}
 
 .storyList {
 
     overflow: hidden;
     position: relative;
     max-width: 1240px;
-    padding-top: 70px;
+    padding-top: 30px;
     margin: 0 auto;
     padding: 0 15px;
     margin-top: -1%;
